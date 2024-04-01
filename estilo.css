@@ -1,0 +1,151 @@
+/* Definições básicas para o corpo e cabeçalho do página*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#004B89 ;
+    color: #fff ;
+    padding: 20px;
+}
+
+header h1 {
+    background-color: #004B89;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/*Definições das características do elemento nav, onde estarão dispostas as sessões da página em formato de lista */
+nav ul {
+    list-style: none; /*Remove o marcador padrão da lista*/
+    padding: 0; 
+    text-align: center;
+}
+
+nav ul li { 
+    display: inline; /*Define o esquema de disposição dos itens da lista em linha */
+    margin-right: 20px;
+}
+
+nav ul li a {  
+    color: #fff; 
+    text-decoration: none; /*Remove o estilo padrão utilizado nos links dentro da lista */
+}
+
+
+section {
+    display: none; /*Define por  */
+    width: 100%; 
+    
+}
+
+section:target { /*Aplica estilização a uma sessão específica que é alvo de um link âncora (#) */
+    display: block; /*Exibe a sessão que é alvo de um link âncora, ocultando as outras sessões, 
+    permitindo a navegação em uma página utilizando links internos */
+}
+
+h2 {
+    color: #333;
+    
+    
+}
+
+p {
+    color: #666;
+    margin-left: 15px;
+    text-indent: 20px;
+    
+}
+
+label {
+    display: block;/*Define os elementos label como blocos, fazendo com que ocupem uma linha inteira, 
+    forçando o conteúdo seguinte ocupar a próxima linha */
+    margin-bottom: 5px; 
+    
+
+}
+
+textarea {
+    height: 150px;
+        
+}
+
+.input-group {
+    margin-bottom: 10px;
+
+}
+
+.sectioncontato {
+    
+    width: 200px;
+    
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info {
+    text-align: center;
+    width: 100%;
+    flex-direction: column; /*Define a direção do eixo do container como coluna, empilhando os itens verticalmente */
+    display: flex;
+}
+
+.paragrafo {
+    
+margin-right: 20px;
+    
+    
+ margin-bottom: 20px; 
+}
+
+.formacao {
+            margin-bottom: 20px;
+            list-style-type: disc; /* Define o tipo de marcador como uma bolinha */
+        }
+
+        .itensformacao { 
+            list-style-type: none; /* Remove o padrão do marcador */
+            padding-left: 20px; 
+            position: relative; /*Define a posição dos elementos da classe como relativa em relação ao seu próprio
+            conteúdo */
+            margin-bottom: 10px; 
+        }
+
+        
+
+        li + li { /*Aplica estilização aos elementos li adjacentes a outros elementos li */
+            padding-top: 20px; 
+        }
+
+
+/*Formatação geral dos títulos de cada sessão. */
+.sobre-mim{ 
+    margin-left: 20px;
+    text-align: center;
+}
+
+.tituloformacao{
+    text-align: center;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.tituloportifolio{
+text-align: center;
+}
+
+.tituloprojetos{
+    margin-left: 20px;
+}
+
+.titulosobre{
+    margin-left: 20px;
+}

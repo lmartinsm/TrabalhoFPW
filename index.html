@@ -1,0 +1,158 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Luidy</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Currículo e Portifólio - Luidy Martins</h1>
+        <nav> <!-- Definição do menu superior -->
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#curriculo">Currículo</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mim"> <!-- Definição conteúdo Sobre Mim -->
+        <div class="paragrafo">
+            <h2 class="titulosobre">Sobre Mim</h2>
+            <p> Olá, seja bem-vindo à minha página, me chamo Luidy Moreira Martins, e criei esse site com o objetivo de
+                colocar em prática os conhecimentos adquiridos na matéria de Fundamentos da Programação Web.<br> </p>
+            <p>Sou natural de Campinas-SP e tenho 21 anos, porém morei a vida inteira em Hortolândia, uma cidade
+                vizinha. Em relação à área de tecnologia, sempre tive um certo interesse desde pequeno, porém nunca fui
+                convicto sobre seguir carreira no ramo. Apesar disso, sempre tive contato com a rotina do profissional
+                de T.I. observando as tarefas do meu irmão mais velho e de outros amigos experientes que trabalharam na
+                área, o que me encorajou a estudar e me aprofundar mais nessa área do conhecimento. Hoje, dando
+                sequência nos meus estudos com a graduação, alguns cursos livres e com o aconselhamento de colegas mais
+                experientes, sigo buscando uma primeira oportunidade de emprego ou estágio relacionado ao meu curso, e,
+                ainda que tenha iniciado a graduação faz pouco tempo, espero alcançar essa meta em breve. <br>
+            </p>
+            <p>
+                Sobre meus hobbies, gosto de esportes em geral, já joguei muito basquete, porém hoje jogo mais vôlei de
+                praia. Gosto de acompanhar também os campeonatos nacionais de futebol sempre que possível. Passo parte
+                do meu tempo livre jogando vídeo game com meus amigos, e também toco violino. Além disso, tenho
+                interesses em áreas como saúde, aprendizado, educação, e alguns trabalhos manuais, e espero desenvolver
+                alguns trabalhos relacionados à esses temas no futuro.</p>
+            </p>
+        </div>
+    </section>
+
+    <section id="curriculo"> <!-- Definição conteúdo currículo -->
+        <h1 class="tituloformacao">Formação</h1>
+        <p>
+            
+        
+        
+            <h1>Educação</h1>
+        
+            <ul id="formacao"> <!-- Divisão em lista não ordenada-->
+                <li id="itensformacao">
+                    Centro Universitáio Adventista de São Paulo<br>
+                    2018 - 2020: Griggs American High School, Ensino Médio<br>
+                    Hortolândia, São Paulo
+                </li>
+                <li id="itensformacao">
+                    Uninter<br>
+                    2023 - 2026: Tecnologia em Análise e Desenvolvimento de Sistemas<br>
+                    Cidade, Estado
+                </li>
+            </ul>
+
+            <h1>Cursos Livres</h1>
+        
+            <ul id="formacao">
+                <li id="itensformacao">
+                    <a href="https://iatecacademy.eadplataforma.app/certificate/view/0000631/2024-02-06">Desenvolvimento Back-End com C#</a><br>
+                    IATec - Instituto Adventista de Tecnologia
+                </li> 
+            </ul>
+
+            <h1>Idiomas</h1>
+        
+            <ul id="formacao">
+                <li id="itensformacao">
+                    Português<br>
+                    Nível Fluente/Nativo
+                </li>
+                <li id="itensformacao">
+                    Inglês<br>
+                    Nível Avançado
+                </li>
+                
+            </ul>
+        </p>
+    </section>
+
+    <section id="portfolio"> <!--Definição conteúdo Portifólio -->
+        <h1 class="tituloportifolio">Meu Portfólio</h1>
+    
+    
+        <h2 class="tituloprojetos">Projetos</h2>
+        <ul> <!-- Divisão Em esquema de lista não ordenada -->
+            <li>
+                <h3>Projeto Final - Curso Desenvolvimento Back-End com C# - IATec Academy</h3>
+                <p>Projeto final realizado para o curso de Desenvolvimento Back-End com C# ofertado pelo 
+                    IATec Academy. Nesse projeto, pude aplicar conceitos de programação orientada a objetos, repository pattern,
+                    testes uniários e clean code.
+                </p>
+                <a href="https://github.com/lmartinsm/IatecAcademyBE" target="_blank">Ver no GitHub</a>
+            </li>
+            <li>
+                <h3>Avalliação Bootstrap - Curso Front-End - IATec Academy</h3>
+                <p>Projeto básico para avaliação dos conceitos de bootstrap passados durante o curso.</p>
+                <a href="https://github.com/lmartinsm/IATecAcademyFE" target="_blank">Ver no GitHub</a>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section id="contato"> <!-- Definição Conteúdo Contato -->
+        <div class="centralizar"> <!-- Divisão utilizada para formatação do formulário e do título em relação 
+        ao restante da página-->
+            <div class="sectioncontato">
+                <h2>Entre em contato</h2>
+                <form><!-- Descrição Formulário -->
+
+
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="Nome" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="Email" required>
+                    </div>
+
+
+                    <div class="input-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                
+            </div>
+          
+        </div>
+        <div class="info"><span>Email: luidymartinsm@gmail.com</span> 
+            <a href="https://www.linkedin.com/in/luidymartins/" target="_blank">Linkedin</a>
+        </div>
+    </section>
+
+  
+
+   
+
+
+</body>
+
+</html>
